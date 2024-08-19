@@ -50,6 +50,9 @@ class Assets_Academy {
 
         $current_wp_version = get_bloginfo("version");
 
+        //wp_deregister_script("jquery");
+        //wp_register_script("jquery", "https://code.jquery.com/jquery-3.6.0.min.js", [], "3.6.0", true);
+
         wp_enqueue_script("aac-script1-js", $js_path . "script1.js", ["jquery", "aac-script3-js"], $plugin_version, true);
         wp_enqueue_script("aac-script2-js", $js_path . "script2.js", ["jquery"], $plugin_version, true);
         wp_enqueue_script("aac-script3-js", $js_path . "script3.js", ["jquery", "aac-script2-js"], $plugin_version, true);
