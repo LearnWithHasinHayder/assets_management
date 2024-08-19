@@ -1,0 +1,4 @@
+#adminmenu, #adminmenu .wp-submenu, #adminmenuback, #adminmenuwrap {
+    background-color: brown !important;
+    /* color: aliceblue; */
+}

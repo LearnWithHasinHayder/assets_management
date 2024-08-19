@@ -1,0 +1,1 @@
+console.log(`you are using ${databank.current_wp_version}`)

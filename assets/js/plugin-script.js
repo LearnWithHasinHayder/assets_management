@@ -1,0 +1,1 @@
+console.log("This script should load only on plugins page");
